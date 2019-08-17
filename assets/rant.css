@@ -1,0 +1,50 @@
+body{
+    background-color:#eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+div.container{
+    width:80%;
+    display:block;
+    margin:0 auto;
+}
+
+div#letter{
+    margin:2rem 0;
+}
+
+div#letter.burning{
+    background-color:#fff;
+    border:red;
+}
+textarea#letter_paper{
+    background:rgb(248, 248, 248);
+    font-family: inherit;
+    resize: none;
+
+    border: 1px solid #ccc;
+    display:block;
+    width:100%;
+}
+
+textarea#letter_paper:focus{
+    outline:none;
+}
+
+button#candle{
+    background-color: #467ada;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius:20px;
+
+    padding: 1rem 2rem;
+    
+}
+
+button#candle:hover{
+    background-color: #2a529b;    
+}
+
+button#candle:active{
+    background-color: #af2525;
+}
